@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as R}from"./index.vue_vue_type_script_setup_true_lang-Seo2noFS.js";import{d as k,J as B,K as F,Z as E,aA as P,ax as $,a4 as u,c as w,o as D,k as e,m as t,H as M,G as i,P as T,a as _,ac as N,a9 as S,l as V,a7 as b}from"./index-CbUjpH5D.js";import{D as y}from"./index-CfRvAn06.js";import{u as A}from"./useMainPage-BzUYadCc.js";import"./index-6R5B6f2q.js";import"./index.vue_vue_type_script_setup_true_lang-CHzmQVSb.js";import"./index-DzXXAabt.js";import"./useTabbar-5cybBxZG.js";const H={class:"flex-center gap-4"},q=k({name:"StandardModuleDetail",__name:"detail",setup(z){const a=B(),c=F(),m=A();E(()=>{m.setCustomTitle(a.params.id?"编辑":"新增")}),P(()=>{m.resetCustomTitle()});const r=$("formRef");function f(){var s;(s=r.value)==null||s.submit().then(()=>{b.emit("get-data-list"),n()})}function n(){c.close({name:"pagesExampleShopDeliveryList"})}return(s,o)=>{const d=T,l=M,p=N,C=u("ElCol"),g=u("ElRow"),v=S,x=R;return D(),w("div",null,[e(p,{title:_(a).params.id?"编辑":"新增"},{default:t(()=>[e(l,{variant:"outline",size:"sm",class:"rounded-full",onClick:n},{default:t(()=>[e(d,{name:"i-ep:arrow-left"}),o[0]||(o[0]=i(" 返回 ",-1))]),_:1})]),_:1},8,["title"]),e(v,null,{default:t(()=>[e(g,null,{default:t(()=>[e(C,{md:24,lg:16},{default:t(()=>[e(y,{id:_(a).params.id,ref_key:"formRef",ref:r},null,8,["id"])]),_:1})]),_:1})]),_:1}),e(x,null,{default:t(()=>[V("div",H,[e(l,{onClick:f},{default:t(()=>[...o[1]||(o[1]=[i(" 提交 ",-1)])]),_:1}),e(l,{variant:"outline",onClick:n},{default:t(()=>[...o[2]||(o[2]=[i(" 取消 ",-1)])]),_:1})])]),_:1})])}}});export{q as default};

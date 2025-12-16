@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as i}from"./index.vue_vue_type_script_setup_true_lang-D1lWcrwk.js";import{d as a,c as s,o as r,k as n,ac as m,m as o,a as c}from"./index-CbUjpH5D.js";import{_ as p}from"./_demo1.vue_vue_type_script_setup_true_lang-v3v2MEdK.js";import{_ as d}from"./_demo2.vue_vue_type_script_setup_true_lang-Dv6VwwUm.js";import"./index-CSPfta8_.js";import"./index-BNodrduw.js";import"./index.vue_vue_type_script_setup_true_lang-DVu16lb0.js";import"./index.vue_vue_type_script_setup_true_lang-DqSzN_vr.js";const l='<script setup lang="ts">\nconst icon = ref(\'\')\nconst icon1 = ref(\'ep:success-filled\')\n<\/script>\n\n<template>\n  <div mb4>\n    <FaIconPicker v-model="icon" />\n  </div>\n  <div>\n    <FaIconPicker v-model="icon1" />\n  </div>\n</template>\n',_='<script setup lang="ts">\nconst icon = ref(\'\')\nconst icon2 = ref(\'\')\n<\/script>\n\n<template>\n  <FaIconPicker v-model="icon2">\n    <template #default="{ icon: icon3 }">\n      <div class="flex-center-start inline-flex cursor-pointer gap-2 border rounded-full px-3 py-1">\n        <FaIcon v-if="icon" :name="icon3" />\n        <div v-else class="text-sm">\n          {{ icon || \'请选择图标\' }}\n        </div>\n      </div>\n    </template>\n  </FaIconPicker>\n</template>\n',b=a({name:"Iconpicker",__name:"index",setup(f){return(u,v)=>{const t=m,e=i;return r(),s("div",null,[n(t,{title:"图标选择器",description:"FaIconPicker"}),n(e,{code:c(l)},{default:o(()=>[n(p)]),_:1},8,["code"]),n(e,{title:"尺寸",code:c(_)},{default:o(()=>[n(d)]),_:1},8,["code"])])}}});export{b as default};

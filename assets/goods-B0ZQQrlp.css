@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+.goods-card[data-v-fe7ad150]{position:relative;margin-bottom:20px;text-align:center;cursor:pointer}.goods-card .image[data-v-fe7ad150]{width:80%}.goods-card .title[data-v-fe7ad150]{margin:8px 0;overflow:hidden;text-overflow:ellipsis;font-size:16px;font-weight:700;white-space:nowrap}.goods-card .sub-title[data-v-fe7ad150]{overflow:hidden;text-overflow:ellipsis;font-size:14px;color:#808695;white-space:nowrap}.goods-card .price[data-v-fe7ad150]{margin-top:8px}.goods-card .price .sales[data-v-fe7ad150],.goods-card .price .original[data-v-fe7ad150]{margin:0 5px;font-size:14px;color:#ff6700}.goods-card .price .sales[data-v-fe7ad150]:before,.goods-card .price .original[data-v-fe7ad150]:before{font-size:14px;content:"￥"}.goods-card .price .sales[data-v-fe7ad150]{font-size:18px}.goods-card .price .original[data-v-fe7ad150]{color:#c5c8ce;text-decoration:line-through}.goods-card .tags[data-v-fe7ad150]{position:absolute;top:15px;right:15px}

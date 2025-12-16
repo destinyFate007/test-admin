@@ -102,6 +102,18 @@ export default function createVitePlugins(mode: string, isBuild = false) {
       dirs: 'src/views',
       exclude: [
         '**/components/**/*.vue',
+        '**/pages_example/**/*.vue',
+        '**/feature_example/**/*.vue',
+        '**/menu_icon_example/**/*.vue',
+        '**/menu_query_example/**/*.vue',
+        '**/mock_example/**/*.vue',
+        '**/standard_module_example/**/*.vue',
+        '**/link_example/**/*.vue',
+        '**/keep_alive_example/**/*.vue',
+        '**/component_built_in_example/**/index.vue',
+        '**/menu_badge_example/**/*.vue',
+        '**/plugin_example/vxe-table.vue',
+        '**/layout_container_example/**/*.vue',
       ],
     }),
 

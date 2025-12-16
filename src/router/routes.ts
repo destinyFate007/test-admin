@@ -4,8 +4,27 @@ import generatedRoutes from 'virtual:generated-pages'
 import { setupLayouts } from 'virtual:meta-layouts'
 import { $t } from '@/locales'
 import pinia from '@/store'
-import MultilevelMenuExample from './modules/multilevel.menu.example'
 
+import AlwaysOpenedExample from './modules/always.opened.example'
+import BreadcrumbExample from './modules/breadcrumb.example'
+import ComponentExample from './modules/component.example'
+import EcologyExample from './modules/ecology.example'
+import ExternalLinkExample from './modules/external.link.example'
+import FeatureExample from './modules/feature.example'
+import IconExample from './modules/icon.example'
+import JsxExample from './modules/jsx.example'
+import KeepAliveExample from './modules/keep.alive.example'
+import LayoutContainerExample from './modules/layout.container.example'
+import MenuBadgeExample from './modules/menu.badge.example'
+import MenuIconExample from './modules/menu.icon.example'
+import MenuQueryExample from './modules/menu.query.example'
+import MockExample from './modules/mock.example'
+import MultilevelMenuExample from './modules/multilevel.menu.example'
+import PageExample from './modules/page.example'
+import PermissionExample from './modules/permission.example'
+import PluginExample from './modules/plugin.example'
+import StandardModuleExample from './modules/standard.module.example'
+import TabExample from './modules/tab.example'
 // 固定路由（默认路由）
 const constantRoutes: RouteRecordRaw[] = [
   {
@@ -62,12 +81,44 @@ const systemRoutes: RouteRecordRaw[] = [
 const asyncRoutes: Route.recordMainRaw[] = [
   {
     meta: {
-      title: '演示',
+      title: 'route.demo',
       icon: 'i-uim:box',
     },
     children: [
       MultilevelMenuExample,
+      BreadcrumbExample,
+      KeepAliveExample,
+      AlwaysOpenedExample,
+      MenuBadgeExample,
+      MenuIconExample,
+      MenuQueryExample,
+      TabExample,
+      ComponentExample,
+      IconExample,
+      LayoutContainerExample,
+      FeatureExample,
+      PluginExample,
+      PermissionExample,
+      MockExample,
+      JsxExample,
+      ExternalLinkExample,
+      StandardModuleExample,
     ],
+  },
+  {
+    meta: {
+      title: 'route.page',
+      icon: 'i-ri:pages-line',
+    },
+    children: [...PageExample],
+  },
+  {
+    meta: {
+      title: 'route.ecology',
+      icon: 'i-icon-park-outline:circular-connection',
+      badge: true,
+    },
+    children: [...EcologyExample],
   },
 ]
 

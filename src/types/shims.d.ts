@@ -11,3 +11,5 @@ declare const __SYSTEM_INFO__: {
   }
   lastBuildTime: string
 }
+
+declare module 'vue-esign'

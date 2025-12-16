@@ -24,15 +24,15 @@ export default defineFakeRoute([
       let permissions: string[] = []
       if (headers.token?.indexOf('admin') === 0) {
         permissions = [
-          'permission.browse',
-          'permission.create',
-          'permission.edit',
-          'permission.remove',
+          'pages.general:browse',
+          'pages.form:browse',
+          'pages.list:browse',
+          'pages.shop:browse',
         ]
       }
       else if (headers.token?.indexOf('test') === 0) {
         permissions = [
-          'permission.browse',
+          'pages.general:browse',
         ]
       }
       return {

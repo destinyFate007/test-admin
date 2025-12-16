@@ -72,6 +72,7 @@ declare global {
   const useConfetti: typeof import('../utils/composables/useConfetti').default
   const useCssModule: typeof import('vue').useCssModule
   const useCssVars: typeof import('vue').useCssVars
+  const useDictionaryStore: typeof import('../store/modules/dictionary').useDictionaryStore
   const useFavoritesStore: typeof import('../store/modules/favorites').useFavoritesStore
   const useGlobalProperties: typeof import('../utils/composables/useGlobalProperties').default
   const useI18n: typeof import('vue-i18n').useI18n
@@ -81,6 +82,7 @@ declare global {
   const useLink: typeof import('vue-router').useLink
   const useMainPage: typeof import('../utils/composables/useMainPage').default
   const useMenu: typeof import('../utils/composables/useMenu').default
+  const useMenuBadgeStore: typeof import('../store/modules/menuBadge').useMenuBadgeStore
   const useMenuStore: typeof import('../store/modules/menu').useMenuStore
   const useModel: typeof import('vue').useModel
   const useNotificationStore: typeof import('../store/modules/notification').useNotificationStore

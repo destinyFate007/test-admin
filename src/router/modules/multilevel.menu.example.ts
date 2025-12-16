@@ -1,5 +1,4 @@
 import type { RouteRecordRaw } from 'vue-router'
-import { $t } from '@/locales'
 
 function Layout() {
   return import('@/layouts/index.vue')
@@ -10,7 +9,7 @@ const routes: RouteRecordRaw = {
   component: Layout,
   name: 'multilevelMenuExample',
   meta: {
-    title: $t('route.multimenu.root'),
+    title: 'route.multimenu.root',
     icon: 'i-heroicons-solid:menu-alt-3',
   },
   children: [
@@ -19,14 +18,14 @@ const routes: RouteRecordRaw = {
       name: 'multilevelMenuExample1',
       component: () => import('@/views/multilevel_menu_example/page.vue'),
       meta: {
-        title: $t('route.multimenu.page'),
+        title: 'route.multimenu.page',
       },
     },
     {
       path: 'level2',
       name: 'multilevelMenuExample2',
       meta: {
-        title: $t('route.multimenu.level2.root'),
+        title: 'route.multimenu.level2.root',
       },
       children: [
         {
@@ -34,14 +33,14 @@ const routes: RouteRecordRaw = {
           name: 'multilevelMenuExample2-1',
           component: () => import('@/views/multilevel_menu_example/level2/page.vue'),
           meta: {
-            title: $t('route.multimenu.level2.page'),
+            title: 'route.multimenu.level2.page',
           },
         },
         {
           path: 'level3',
           name: 'multilevelMenuExample2-2',
           meta: {
-            title: $t('route.multimenu.level2.level3.root'),
+            title: 'route.multimenu.level2.level3.root',
           },
           children: [
             {
@@ -49,7 +48,7 @@ const routes: RouteRecordRaw = {
               name: 'multilevelMenuExample2-2-1',
               component: () => import('@/views/multilevel_menu_example/level2/level3/page1.vue'),
               meta: {
-                title: $t('route.multimenu.level2.level3.page1'),
+                title: 'route.multimenu.level2.level3.page1',
               },
             },
             {
@@ -57,7 +56,7 @@ const routes: RouteRecordRaw = {
               name: 'multilevelMenuExample2-2-2',
               component: () => import('@/views/multilevel_menu_example/level2/level3/page2.vue'),
               meta: {
-                title: $t('route.multimenu.level2.level3.page2'),
+                title: 'route.multimenu.level2.level3.page2',
               },
             },
           ],

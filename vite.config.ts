@@ -17,6 +17,7 @@ export default defineConfig(({ mode, command }) => {
     }
   })
   return {
+    base: './',
     // 开发服务器选项 https://cn.vitejs.dev/config/server-options
     server: {
       open: true,
